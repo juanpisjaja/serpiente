@@ -22,7 +22,7 @@ stretch_wid=0.5)
         random_y = random.randint(-280, 280)
         self.goto(random_x, random_y)
 ## main
->"""En las lineas 2-6 esta inportando dos librerias 
+"""En las lineas 2-6 esta inportando dos librerias 
 1.Turtle que sirve para dibujar figuras intrincadas usando programas que repiten movimientos simples. Al combinar estos comandos y otros similares, se pueden dibujar figuras intrincadas y formas. 
 3. La biblioteca time contiene una serie de funciones relacionadas con la medición del tiempo.
 ademas d ela dos libreias contiene 3 archvios punto py donde se organiza el codigo por secciones como lo es un para la serpiente otro para los puntos otro para la pantalla"""
@@ -81,7 +81,7 @@ screen.exitonclick()
 
 
 ## snake
->"""Aca esta inportando la libreria turtle dandole parametros para donde inisializa la culebrita """
+"""Aca esta inportando la libreria turtle dandole parametros para donde inisializa la culebrita """
 from turtle import Turtle
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40,0)]
 """aca es como inportando se podria decir las para,etros para mover la culebrita mediante macros"""
@@ -145,7 +145,7 @@ class Snake:
 
 
 ## scoreboard
->"""En esta seccion del codigo estamos trabajando con el score o puntos del juego inportando la libreria turtle y aliniando el texto que vaya a escribir al centro  y el tipo de la letra con el que se va aver"""
+"""En esta seccion del codigo estamos trabajando con el score o puntos del juego inportando la libreria turtle y aliniando el texto que vaya a escribir al centro  y el tipo de la letra con el que se va aver"""
 from turtle import Turtle
 ALIGNMENT = "center"
 FONT = ("Courier", 24, "normal")
